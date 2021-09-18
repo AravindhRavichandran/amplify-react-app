@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyreactapp-dev-44837-authRole",
+      "UnauthRoleArn": "arn:aws:iam::510410265835:role/amplify-amplifyreactapp-dev-44837-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::510410265835:role/amplify-amplifyreactapp-dev-44837-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-amplifyreactapp-dev-44837-deployment",
+      "UnauthRoleName": "amplify-amplifyreactapp-dev-44837-unauthRole",
+      "StackName": "amplify-amplifyreactapp-dev-44837",
+      "StackId": "arn:aws:cloudformation:ap-south-1:510410265835:stack/amplify-amplifyreactapp-dev-44837/98768b70-180d-11ec-a048-02394825d51c",
+      "AmplifyAppId": "d2lc7rswe072gc"
+    }
+  },
+  "auth": {
+    "amplifyreactappb1204852": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanisms": [
+          "EMAIL",
+          "PHONE_NUMBER"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyreactapp-dev-44837-deployment/amplify-cfn-templates/auth/amplifyreactappb1204852-cloudformation-template.yml",
+        "logicalId": "authamplifyreactappb1204852"
+      },
+      "lastPushTimeStamp": "2021-09-18T00:19:48.759Z",
+      "output": {
+        "UserPoolId": "ap-south-1_ENvRFW5Jz",
+        "AppClientIDWeb": "4rlhipl5k991smug9f1rjd2ubs",
+        "AppClientID": "1j287scthr9ua18nethg6sbuo0",
+        "IdentityPoolId": "ap-south-1:249bc80b-6db2-4333-9497-9758eaa8a7c7",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-south-1:510410265835:userpool/ap-south-1_ENvRFW5Jz",
+        "IdentityPoolName": "amplifyreactappb1204852_identitypool_b1204852__dev",
+        "UserPoolName": "amplifyreactappb1204852_userpool_b1204852"
+      },
+      "lastPushDirHash": "SH8n7s3CHjhvD5y1xrBE348I8CA="
+    }
+  }
+}
